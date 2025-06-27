@@ -30,7 +30,7 @@ button{
 
 .booksDiv{
     display:grid;
-    grid-template-columns:repeat(5,1fr);
+    grid-template-columns:repeat(5,minmax(250px,1fr));
     grid-auto-rows:250px;
     overflow:auto;
     padding:30px;
